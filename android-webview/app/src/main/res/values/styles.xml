@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.ClinicCompanion" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#51436f</item>
+        <item name="android:statusBarColor">#3d3156</item>
+        <item name="android:navigationBarColor">#3d3156</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

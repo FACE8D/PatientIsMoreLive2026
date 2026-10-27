@@ -1,0 +1,19 @@
+{
+  "name": "Контур — сопровождение пациента",
+  "short_name": "Контур",
+  "lang": "ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f5fa",
+  "theme_color": "#51436f",
+  "description": "Локальный прототип приложения сопровождения пациента и кабинета врача",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

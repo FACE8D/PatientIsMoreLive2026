@@ -1,0 +1,164 @@
+{
+  "name": "Clinic Companion questionnaire bundle",
+  "bundle_version": "1.0.0",
+  "encoding": "UTF-8 JSON",
+  "load_path": "data/questionnaires/*.json",
+  "count": 14,
+  "questionnaires": [
+    {
+      "id": "bai21",
+      "title": "BAI — Шкала тревоги Бека",
+      "file": "data/questionnaires/bai21.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 21,
+      "source": "Document 1(3).odt, раздел 10; Beck & Steer, 1993. Приложенный текст описывает суммирование, но не содержит таблицы порогов интерпретации; система не присваивает категорию.",
+      "license_review_required": true,
+      "sha256": "e4832b6aa74ba9cf85a89e2c188ac8111d15a27678f9aadad25a4d05a5a73a0a"
+    },
+    {
+      "id": "bdi21",
+      "title": "BDI — Шкала депрессии Бека (21 пункт)",
+      "file": "data/questionnaires/bdi21.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 22,
+      "source": "Приложенный SHkala-depressii-Beka(3).pdf, страницы 1–4. В источнике указаны диапазоны 0–9, 10–15, 16–19, 20–29, 30–63; максимальная сумма для 21 пункта по 0–3 математически равна 63, что отражено в интерфейсе.",
+      "license_review_required": true,
+      "sha256": "bad1db9d9e0bc37b6f0765699ba8b96a6b126b34b120272a9254f7fc26d299b5"
+    },
+    {
+      "id": "cssrs",
+      "title": "C-SSRS — Колумбийская шкала оценки тяжести суицидальности",
+      "file": "data/questionnaires/cssrs.json",
+      "version": "1.0-source-import",
+      "respondent": "clinician",
+      "question_count": 21,
+      "source": "Приложенный C-SSRS(3).pdf, редакция 14.01.2009, исходный уровень/скрининг. Форма структурирует идеацию, интенсивность и поведение; нужна проверка авторских прав, условий обучения и корректности локализованной версии перед внедрением.",
+      "license_review_required": true,
+      "sha256": "c04a7fb45180f96cb78928879ce306022eafb2efaa8ae037364abd2b312aafd7"
+    },
+    {
+      "id": "gad7",
+      "title": "GAD-7 — Скрининг генерализованной тревоги",
+      "file": "data/questionnaires/gad7.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 7,
+      "source": "Document 1(3).odt, раздел 7; приложенный источник указывает границы 0–4, 5–9, 10–14, 15–21.",
+      "license_review_required": false,
+      "sha256": "a580577240b8385b2c1a177540e4a0ad51ac1b19b7e5097fb23c2098eaf5497b"
+    },
+    {
+      "id": "hads",
+      "title": "HADS — Госпитальная шкала тревоги и депрессии",
+      "file": "data/questionnaires/hads.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 14,
+      "source": "Приложенный файл hads(3).pdf, 1 стр.; русский бланк. Варианты и баллы перенесены по файлу.",
+      "license_review_required": false,
+      "sha256": "84fdfca961afd5c64c74c23e095cf6abc3edae4884e1c5bf98a2199a8edf63b1"
+    },
+    {
+      "id": "hars14",
+      "title": "HARS — Шкала тревоги Гамильтона",
+      "file": "data/questionnaires/hars14.json",
+      "version": "1.0-source-import",
+      "respondent": "clinician",
+      "question_count": 14,
+      "source": "Document 1(3).odt, раздел 6; Hamilton M., 1959. Интерпретационные границы перенесены из приложенного файла.",
+      "license_review_required": false,
+      "sha256": "118d0c467397885105133f4e15ad412dececae4f0a143d054a2d5ec144f1be0b"
+    },
+    {
+      "id": "hcl32",
+      "title": "HCL-32 — Шкала гипомании (версия из PDF)",
+      "file": "data/questionnaires/hcl32.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 32,
+      "source": "Приложенный гипомания(3).pdf, страницы 5–7, Приложение 1. В исследовании для русскоязычной версии указан порог ≥14; это скрининговая граница, не диагноз.",
+      "license_review_required": true,
+      "sha256": "4957c9f8b920c0c8991925e1ce0f14faebec13cbda7d1698c8303c20b971e354"
+    },
+    {
+      "id": "hcl33",
+      "title": "HCL-33 — Опросник для выявления гипомании",
+      "file": "data/questionnaires/hcl33.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 33,
+      "source": "Document 1(3).odt, раздел 4; в приложенном документе вопросы представлены на встроенном изображении. Порог в источнике: 16 баллов.",
+      "license_review_required": true,
+      "sha256": "9741b4314d4ca5ff796e0964cfe4834b22fe3bdbc65bdcbb02ea4f7c3c72e4a5"
+    },
+    {
+      "id": "hdrs17",
+      "title": "HDRS-17 — Шкала Гамильтона для оценки депрессии",
+      "file": "data/questionnaires/hdrs17.json",
+      "version": "1.0-source-import",
+      "respondent": "clinician",
+      "question_count": 17,
+      "source": "Приложенные SHkala-Gamiltona-dlya-otsenki-depressii(3).pdf, страницы 1–6, и Document 1(3).odt, раздел 1. Ключ источника не задаёт категорию ровно для 23 баллов; приложение явно показывает это.",
+      "license_review_required": true,
+      "sha256": "31404bc9667322cf43ec3fd1bf724dcafad698b5f0f6ea625bf21376717b0464"
+    },
+    {
+      "id": "itt15",
+      "title": "ИТТ — Интегративный тест тревожности (15 пунктов)",
+      "file": "data/questionnaires/itt15.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 15,
+      "source": "Document 1(3).odt, раздел 9. В приложенном файле есть таблицы вспомогательных шкал/норм; здесь показывается только сумма ответов 0–3 без самостоятельной нормативной интерпретации.",
+      "license_review_required": false,
+      "sha256": "e2a08125b6426fe44c92e6d8c2a34352af6707ad33b980afd98110001a3348e1"
+    },
+    {
+      "id": "madrs",
+      "title": "MADRS — Шкала Монтгомери–Асберг",
+      "file": "data/questionnaires/madrs.json",
+      "version": "1.0-source-import",
+      "respondent": "clinician",
+      "question_count": 10,
+      "source": "Приложенный shkala-montgomeri–asberg...pdf, страницы 1–4; Montgomery & Asberg, 1979. Текст промежуточных вариантов не дан источником дословно; они обозначены как промежуточная оценка.",
+      "license_review_required": true,
+      "sha256": "dcd1033557b1631aeb6676cf656b191f5e123b20b501996728b5b818cd103cf8"
+    },
+    {
+      "id": "phq9",
+      "title": "PHQ-9 — Опросник состояния здоровья",
+      "file": "data/questionnaires/phq9.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 10,
+      "source": "Document 1(3).odt, раздел 3; источник в документе: PHQ-9 (ссылка на yasnoeutro.ru). Пункт о самоповреждении вызывает сигнал безопасности при любом ответе выше нуля.",
+      "license_review_required": true,
+      "sha256": "ab1ed0af6ceb62cffd018bc5cf9c06abb4c188e8ca8f3384a22055b07e982091"
+    },
+    {
+      "id": "scl90r",
+      "title": "SCL-90-R — Опросник выраженности психопатологической симптоматики",
+      "file": "data/questionnaires/scl90r.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 90,
+      "source": "Document 1(3).odt, раздел 8; русская адаптация Н. В. Тарабриной (2001), источник и права должны быть проверены перед клиническим/коммерческим использованием.",
+      "license_review_required": true,
+      "sha256": "ffcbb043b833e056bfe9458674190f8135c0c3886f11d841e1590f4892592f61"
+    },
+    {
+      "id": "sheehan35",
+      "title": "Шкала самооценки тревоги Шихана",
+      "file": "data/questionnaires/sheehan35.json",
+      "version": "1.0-source-import",
+      "respondent": "patient",
+      "question_count": 35,
+      "source": "Document 1(3).odt, раздел 12; Sheehan D.V. et al. Источник указывает сумму 0–140 и следующие пороги.",
+      "license_review_required": true,
+      "sha256": "74a140dd79d05cd264569846c3597bfb9b2ed156f2c56952c92ab42ca262c35d"
+    }
+  ],
+  "notice": "Included questionnaire text and translations are imported from user-provided source files. This manifest does not grant reproduction, translation, adaptation, or clinical-use rights. Check licenses and validate each specific Russian version before clinical use."
+}

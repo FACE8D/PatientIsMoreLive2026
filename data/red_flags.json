@@ -1,0 +1,183 @@
+{
+  "version": "1.0.0",
+  "delivery_limit": "In-app notifications persist in the database. Phone push is sent only if a push provider and credentials are configured; this is not an emergency dispatch service.",
+  "rules": [
+    {
+      "id": "message_delusion_terms",
+      "title": "Сообщение: возможное бредовое/галлюцинаторное содержание",
+      "source_type": "message_text",
+      "enabled": true,
+      "severity": "urgent",
+      "recipient": "doctor",
+      "patterns": [
+        "слышу голоса",
+        "голоса говорят",
+        "голоса приказывают",
+        "мне приказывают голоса",
+        "бред",
+        "за мной следят",
+        "контролируют мои мысли",
+        "вкладывают мысли",
+        "читают мои мысли",
+        "кто-то управляет моими мыслями",
+        "видения"
+      ],
+      "case_sensitive": false,
+      "threshold": "any",
+      "detail": "Совпадение текстового правила требует прямого уточнения врачом; не является диагнозом. Возможны ложные совпадения в цитате/обсуждении."
+    },
+    {
+      "id": "scl90_psychotic_experience",
+      "title": "SCL-90-R: ответы на пункты о необычных переживаниях мыслей/голосов",
+      "source_type": "questionnaire_answer",
+      "questionnaire_id": "scl90r",
+      "enabled": true,
+      "severity": "review",
+      "recipient": "doctor",
+      "items": [
+        {
+          "question_id": "q7",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "question_id": "q16",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "question_id": "q35",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "question_id": "q62",
+          "values": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "threshold": "any",
+      "detail": "Положительный ответ выделяется и требует клинического уточнения. Не означает подтверждённый бред/психоз."
+    },
+    {
+      "id": "phq9_self_harm",
+      "title": "PHQ-9: ответ выше нуля на пункт о смерти/самоповреждении",
+      "source_type": "questionnaire_answer",
+      "questionnaire_id": "phq9",
+      "enabled": true,
+      "severity": "urgent",
+      "recipient": "doctor",
+      "items": [
+        {
+          "question_id": "q9",
+          "values": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "threshold": "any",
+      "detail": "Сигнал для прямой оценки актуального риска и локального протокола."
+    },
+    {
+      "id": "bdi_self_harm",
+      "title": "BDI: ответ выше нуля на пункт суицидальных мыслей",
+      "source_type": "questionnaire_answer",
+      "questionnaire_id": "bdi21",
+      "enabled": true,
+      "severity": "urgent",
+      "recipient": "doctor",
+      "items": [
+        {
+          "question_id": "q9",
+          "values": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "threshold": "any",
+      "detail": "Сигнал безопасности, не диагноз."
+    },
+    {
+      "id": "hars_psychotic_review",
+      "title": "Клиническая шкала содержит необычное содержание, требующее уточнения",
+      "source_type": "questionnaire_answer",
+      "questionnaire_id": "scl90r",
+      "enabled": true,
+      "severity": "review",
+      "recipient": "doctor",
+      "items": [
+        {
+          "question_id": "q85",
+          "values": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "threshold": "any",
+      "detail": "Содержимое о наказании/вине требует контекстного уточнения; совпадение не означает бредовую убеждённость."
+    },
+    {
+      "id": "adverse_event_any",
+      "title": "Лекарственная нежелательная реакция",
+      "source_type": "adverse_event",
+      "enabled": true,
+      "severity": "review",
+      "recipient": "doctor",
+      "threshold": "any",
+      "detail": "Любое сообщение о побочном эффекте должно быть видно и доступно для клинического review."
+    },
+    {
+      "id": "adverse_event_severe",
+      "title": "Выраженная/серьёзная лекарственная нежелательная реакция",
+      "source_type": "adverse_event",
+      "enabled": true,
+      "severity": "urgent",
+      "recipient": "both",
+      "threshold": "severe",
+      "detail": "В приложении создаётся срочный сигнал и уведомление пациенту об обращении за экстренной помощью при угрожающем/быстро ухудшающемся состоянии."
+    },
+    {
+      "id": "diary_self_harm",
+      "title": "Дневник: мысли о самоповреждении",
+      "source_type": "entry",
+      "entry_type": "mood",
+      "enabled": true,
+      "severity": "urgent",
+      "recipient": "doctor",
+      "threshold": "self_harm_thoughts",
+      "detail": "Прямое уточнение безопасности; приложение не заменяет экстренную службу."
+    },
+    {
+      "id": "chat_unavailable_notice",
+      "title": "Сообщение в чат при отключённом чате",
+      "source_type": "system",
+      "enabled": true,
+      "severity": "info",
+      "recipient": "doctor",
+      "threshold": "any",
+      "detail": "Использовать другой согласованный способ связи. Не гарантируется доставка экстренных сообщений."
+    }
+  ]
+}

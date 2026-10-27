@@ -1,0 +1,443 @@
+{
+  "id": "hads",
+  "title": "HADS — Госпитальная шкала тревоги и депрессии",
+  "category": "Тревога и депрессия",
+  "respondent": "patient",
+  "instruction": "Выберите по одному ответу на каждое утверждение. Это скрининг, а не диагноз.",
+  "source": "Приложенный файл hads(3).pdf, 1 стр.; русский бланк. Варианты и баллы перенесены по файлу.",
+  "version": "1.0-source-import",
+  "questions": [
+    {
+      "id": "a1",
+      "text": "Я испытываю напряжение, мне не по себе",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем не испытываю"
+        },
+        {
+          "value": 1,
+          "label": "Время от времени, иногда"
+        },
+        {
+          "value": 2,
+          "label": "Часто"
+        },
+        {
+          "value": 3,
+          "label": "Все время"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "a2",
+      "text": "Я испытываю страх, кажется, что что-то ужасное может вот-вот случиться",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем не испытываю"
+        },
+        {
+          "value": 1,
+          "label": "Иногда, но это меня не беспокоит"
+        },
+        {
+          "value": 2,
+          "label": "Да, это так, но страх не очень велик"
+        },
+        {
+          "value": 3,
+          "label": "Определенно это так, и страх очень велик"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "a3",
+      "text": "Беспокойные мысли крутятся у меня в голове",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Только иногда"
+        },
+        {
+          "value": 1,
+          "label": "Время от времени и не так часто"
+        },
+        {
+          "value": 2,
+          "label": "Большую часть времени"
+        },
+        {
+          "value": 3,
+          "label": "Постоянно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "a4",
+      "text": "Я легко могу присесть и расслабиться",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Определенно, это так"
+        },
+        {
+          "value": 1,
+          "label": "Наверно, это так"
+        },
+        {
+          "value": 2,
+          "label": "Лишь изредка, это так"
+        },
+        {
+          "value": 3,
+          "label": "Совсем не могу"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "a5",
+      "text": "Я испытываю внутреннее напряжение или дрожь",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем не испытываю"
+        },
+        {
+          "value": 1,
+          "label": "Иногда"
+        },
+        {
+          "value": 2,
+          "label": "Часто"
+        },
+        {
+          "value": 3,
+          "label": "Очень часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "a6",
+      "text": "Я испытываю неусидчивость, мне постоянно нужно двигаться",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем не испытываю"
+        },
+        {
+          "value": 1,
+          "label": "Лишь в некоторой степени, это так"
+        },
+        {
+          "value": 2,
+          "label": "Наверно, это так"
+        },
+        {
+          "value": 3,
+          "label": "Определенно, это так"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "a7",
+      "text": "У меня бывает внезапное чувство паники",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем не бывает"
+        },
+        {
+          "value": 1,
+          "label": "Не так уж часто"
+        },
+        {
+          "value": 2,
+          "label": "Довольно часто"
+        },
+        {
+          "value": 3,
+          "label": "Очень часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Тревога (HADS-A)",
+      "scoring_group": "anxiety"
+    },
+    {
+      "id": "d1",
+      "text": "То, что приносило мне большое удовольствие, и сейчас вызывает у меня такое же чувство",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Определенно, это так"
+        },
+        {
+          "value": 1,
+          "label": "Наверное, это так"
+        },
+        {
+          "value": 2,
+          "label": "Лишь в очень малой степени, это так"
+        },
+        {
+          "value": 3,
+          "label": "Это совсем не так"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    },
+    {
+      "id": "d2",
+      "text": "Я способен рассмеяться и увидеть в том или ином событии смешное",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Определенно, это так"
+        },
+        {
+          "value": 1,
+          "label": "Наверное, это так"
+        },
+        {
+          "value": 2,
+          "label": "Лишь в очень малой степени, это так"
+        },
+        {
+          "value": 3,
+          "label": "Совсем не способен"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    },
+    {
+      "id": "d3",
+      "text": "Я испытываю бодрость",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Практически все время"
+        },
+        {
+          "value": 1,
+          "label": "Иногда"
+        },
+        {
+          "value": 2,
+          "label": "Очень редко"
+        },
+        {
+          "value": 3,
+          "label": "Совсем не испытываю"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    },
+    {
+      "id": "d4",
+      "text": "Мне кажется, что я стал все делать очень медленно",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Иногда"
+        },
+        {
+          "value": 2,
+          "label": "Часто"
+        },
+        {
+          "value": 3,
+          "label": "Практически все время"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    },
+    {
+      "id": "d5",
+      "text": "Я не слежу за своей внешностью",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Я слежу за собой так же, как и раньше"
+        },
+        {
+          "value": 1,
+          "label": "Может быть, я стал меньше уделять этому времени"
+        },
+        {
+          "value": 2,
+          "label": "Я не уделяю этому столько времени, сколько нужно"
+        },
+        {
+          "value": 3,
+          "label": "Определенно, это так"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    },
+    {
+      "id": "d6",
+      "text": "Я считаю, что мои дела (занятия, увлечения) могут принести мне чувство удовлетворения",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Точно так же, как и обычно"
+        },
+        {
+          "value": 1,
+          "label": "Да, но не в той степени, как раньше"
+        },
+        {
+          "value": 2,
+          "label": "Значительно меньше, чем обычно"
+        },
+        {
+          "value": 3,
+          "label": "Совсем так не считаю"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    },
+    {
+      "id": "d7",
+      "text": "Я могу получить удовольствие от хорошей книги, радио- или телепрограммы",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Часто"
+        },
+        {
+          "value": 1,
+          "label": "Иногда"
+        },
+        {
+          "value": 2,
+          "label": "Редко"
+        },
+        {
+          "value": 3,
+          "label": "Очень редко"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Депрессия (HADS-D)",
+      "scoring_group": "depression"
+    }
+  ],
+  "scoring": {
+    "type": "groups_sum",
+    "groups": [
+      {
+        "id": "anxiety",
+        "label": "Тревога (HADS-A)",
+        "question_group": "anxiety",
+        "min": 0,
+        "max": 21,
+        "bands": [
+          {
+            "min": 0,
+            "max": 7,
+            "label": "Норма / симптомы достоверно не выражены"
+          },
+          {
+            "min": 8,
+            "max": 10,
+            "label": "Субклинически выраженные симптомы"
+          },
+          {
+            "min": 11,
+            "max": 21,
+            "label": "Клинически выраженные симптомы"
+          }
+        ]
+      },
+      {
+        "id": "depression",
+        "label": "Депрессия (HADS-D)",
+        "question_group": "depression",
+        "min": 0,
+        "max": 21,
+        "bands": [
+          {
+            "min": 0,
+            "max": 7,
+            "label": "Норма / симптомы достоверно не выражены"
+          },
+          {
+            "min": 8,
+            "max": 10,
+            "label": "Субклинически выраженные симптомы"
+          },
+          {
+            "min": 11,
+            "max": 21,
+            "label": "Клинически выраженные симптомы"
+          }
+        ]
+      }
+    ]
+  },
+  "license_review_required": false
+}

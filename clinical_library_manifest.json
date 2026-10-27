@@ -1,0 +1,261 @@
+{
+  "name": "Clinic Companion clinical library",
+  "bundle_version": "1.0.0",
+  "treatment_scheme_count": 11,
+  "medication_catalog_count": 17,
+  "source_registry_count": 17,
+  "red_flag_rule_count": 9,
+  "treatment_schemes": [
+    {
+      "id": "adverse_event_review",
+      "title": "Лекарственная нежелательная реакция: регистрация и клиническая оценка",
+      "file": "data/treatment_schemes/adverse_event_review.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "разделы 1.4.10–1.4.19",
+          "supports": "обсуждение harms, побочных и отменных явлений, мониторинг и review."
+        },
+        {
+          "source_id": "russian_standard_1697",
+          "location": "примечания к перечню лекарственных средств",
+          "supports": "препараты применяются по действующей инструкции; стандарт не заменяет индивидуальную оценку."
+        }
+      ],
+      "sha256": "85cc9a3acc4ed5ce24f4ee015b77398c64dfe167f0e74a469ed73e426faef544"
+    },
+    {
+      "id": "antidepressant_relapse_prevention",
+      "title": "Депрессия: обсуждение профилактики рецидива",
+      "file": "data/treatment_schemes/antidepressant_relapse_prevention.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "раздел 1.8.1–1.8.7, стр. 57–59",
+          "supports": "совместное решение о продолжении; факторы повышенного риска рецидива; в определённых случаях продолжение лекарства, группа CBT/MBCT или комбинация; курс профилактики CBT/MBCT обычно 8 сессий за 2–3 месяца с возможными дополнительными сессиями в следующие 12 месяцев."
+        },
+        {
+          "source_id": "who_antidepressant_duration_2023",
+          "location": "разделы 3–4, GRADE",
+          "supports": "обзор длительности лечения; в документе подчёркнута неопределённость некоторых данных и смешение рецидива с синдромом отмены."
+        }
+      ],
+      "sha256": "2ad7db74d386b547d42ffbfbf01c139af3e59c95fd4fd03f4dffd80c606528c0"
+    },
+    {
+      "id": "antidepressant_start_review",
+      "title": "Антидепрессант: согласование начала и мониторинга",
+      "file": "data/treatment_schemes/antidepressant_start_review.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "1.4.10–1.4.12, стр. 17–18",
+          "supports": "совместный план, обсуждение пользы/вреда, письменно предоставленная информация, ожидание эффекта и срок первого обзора."
+        },
+        {
+          "source_id": "who_antidepressant_treatment_2023",
+          "location": "разделы 1–4; GRADE/evidence-to-decision",
+          "supports": "evidence profile о TCA/SSRI и длительности; степень уверенности varies, это не индивидуальная схема дозирования."
+        },
+        {
+          "source_id": "russian_standard_1697",
+          "location": "раздел 3, стр. 5–7",
+          "supports": "в документе перечислены отдельные лекарственные вещества и средние дозы в рамках стандарта; заголовок/приказ требуют независимой проверки актуального правового статуса. Значения НЕ переносить в индивидуальное назначение."
+        }
+      ],
+      "sha256": "0d861f39897aad753ffb1ff097904316a9b081c4e276dbde5f8381db2d20c250"
+    },
+    {
+      "id": "antidepressant_taper_review",
+      "title": "Антидепрессант: план постепенного снижения/отмены",
+      "file": "data/treatment_schemes/antidepressant_taper_review.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "раздел 1.4.13–1.4.20, стр. 18–21",
+          "supports": "не прекращать резко; снижать поэтапно; следующую ступень определять с учётом разрешения/переносимости симптомов; мониторить и симптомы отмены, и возврат депрессии."
+        },
+        {
+          "source_id": "who_antidepressant_duration_2023",
+          "location": "раздел 3.6 и 4, стр. 21–44",
+          "supports": "evidence profile отмечает очень низкую/низкую определённость по нескольким стратегиям и ограничения исследований коротких схем tapering."
+        }
+      ],
+      "sha256": "97c7d3a093c8b48c69e946d54770b4a0160b8d691ef6e6d6f69c341e7d0111b7"
+    },
+    {
+      "id": "anxiety_assessment_pathway",
+      "title": "Тревожные симптомы: оценка и выбор маршрута",
+      "file": "data/treatment_schemes/anxiety_assessment_pathway.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "german_s3_anxiety_2021",
+          "location": "Version 2, 06.04.2021; разделы по паническому расстройству/агорафобии, GAD и социальной фобии",
+          "supports": "описание вариантов КПТ и отдельных классов препаратов по конкретным расстройствам; сама копия указывает плановую перепроверку 04/2026, поэтому текущий статус требуется проверить."
+        },
+        {
+          "source_id": "who_mhgap_anxiety_evidence_2023",
+          "location": "разделы 3–4 по соответствующим PICO-вопросам",
+          "supports": "evidence profiles для психологических/фармакологических вмешательств; это обзоры доказательств, не индивидуальные назначения."
+        }
+      ],
+      "sha256": "98ddb59fbbd9c21d3f8354d48731d6506fd1429d403c5e2517687d5460b66384"
+    },
+    {
+      "id": "behavioral_activation",
+      "title": "Поведенческая активация",
+      "file": "data/treatment_schemes/behavioral_activation.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "who_behavioural_activation_2012",
+          "location": "стр. 1–5",
+          "supports": "описание подхода и evidence profile; не задаёт универсальную индивидуальную частоту/дозу сессий."
+        },
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "таблицы психологических вмешательств, раздел 1.5",
+          "supports": "поведенческая активация как один из структурированных психологических подходов."
+        }
+      ],
+      "sha256": "e84ccedf62585ec55b87ff5926a84db0546a9b1e8d1dae52c50b01c07e3b342d"
+    },
+    {
+      "id": "cbt_structured",
+      "title": "КПТ / структурированная психологическая терапия",
+      "file": "data/treatment_schemes/cbt_structured.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "раздел 1.5 и таблицы психологических вмешательств",
+          "supports": "психологические варианты для депрессии и совместный выбор."
+        },
+        {
+          "source_id": "who_brief_structured_psychological_2023",
+          "location": "разделы 3–4, evidence profiles/GRADE",
+          "supports": "обзор доказательств для КПТ, поведенческой активации, IPT, PST и других подходов; это обзор доказательств, не полный индивидуальный протокол."
+        },
+        {
+          "source_id": "who_cbt_panic_2012",
+          "location": "стр. 1–6",
+          "supports": "документ о лечении на принципах КПТ у людей, обеспокоенных паническими атаками; доказательства компонентов могут быть косвенными."
+        }
+      ],
+      "sha256": "98f3b00cf9132e708a28858ed5d402a9ae18cfd20fe8300696fa91b1aaa14d45"
+    },
+    {
+      "id": "depression_guided_self_help",
+      "title": "Депрессия: сопровождаемая самопомощь",
+      "file": "data/treatment_schemes/depression_guided_self_help.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "раздел 1.5.2; таблица 1; печатные страницы 27–29",
+          "supports": "выбор лечения совместно с человеком; предпочтение наименее навязчивого и ресурсоёмкого варианта при клинической уместности; guided self-help обычно 6–8 структурированных сессий."
+        }
+      ],
+      "sha256": "5e01ed56bce51c157c99f78f2617daf405216067fd77d6fa4ecdbe543de738dd"
+    },
+    {
+      "id": "physical_activity_support",
+      "title": "Поддержка посильной физической активности",
+      "file": "data/treatment_schemes/physical_activity_support.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "who_physical_activity_2012",
+          "location": "стр. 1–8; PICO и GRADE tables",
+          "supports": "обзор совета по физической активности у взрослых с депрессивным эпизодом/расстройством и неактивным образом жизни."
+        },
+        {
+          "source_id": "nice_ng222_2022",
+          "location": "раздел 1.5; варианты психологической/социальной поддержки",
+          "supports": "выбор лечения с учётом предпочтений и потребностей."
+        }
+      ],
+      "sha256": "c7cf027aff3b1d22a9a0d9d26a64f52376a832014ef4d591aec334c2fb084b5d"
+    },
+    {
+      "id": "psychosis_red_flag_review",
+      "title": "Подозрение на бредовые/галлюцинаторные переживания: проверка и маршрут",
+      "file": "data/treatment_schemes/psychosis_red_flag_review.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "who_icd11_cddr_2024",
+          "location": "ICD-11 CDDR, соответствующие диагностические разделы",
+          "supports": "клиническое описание/диагностические требования; классификация не применяется автоматически по текстовому маркеру."
+        },
+        {
+          "source_id": "clinic_case_todo",
+          "location": "обязательные условия и red-flag workflow",
+          "supports": "инструмент поддержки принятия решений должен учитывать риски и маршрутизацию и не выполнять клинические действия самостоятельно."
+        }
+      ],
+      "sha256": "5d84404d6daf18168e4db6e2db906db638a2dcd06d1acd739a9961e549ebab0d"
+    },
+    {
+      "id": "relaxation_support",
+      "title": "Релаксационные техники как поддерживающий компонент",
+      "file": "data/treatment_schemes/relaxation_support.json",
+      "version": "1.0.0",
+      "status": "active_reference",
+      "approval_required": true,
+      "source_refs": [
+        {
+          "source_id": "who_relaxation_2012",
+          "location": "стр. 1–7; GRADE tables",
+          "supports": "evidence profile relaxation versus usual care; в файле отмечена низкая определённость по ряду исходов."
+        }
+      ],
+      "sha256": "92a04bed77b455ecf74760b5f8acef56c7f7613db67cc0ae89cb3b7689dd0cc1"
+    }
+  ],
+  "medication_file": {
+    "file": "data/medications.json",
+    "version": "2.3.0",
+    "sha256": "b0ff719343caf0a1248c51cc529b9fc028d16f139f3b9f44fbf49b63266f840b",
+    "note": "Справочный каталог 19 веществ с данными фармакокинетики, противопоказаниями, предосторожностями, взаимодействиями, нежелательными реакциями и мониторингом из монографий «Видаль» и источников стандарта помощи. Не заменяет инструкцию конкретного продукта и проверку регистрации в ГРЛС."
+  },
+  "source_registry_file": {
+    "file": "data/guidelines/source_registry.json",
+    "version": "1.0.0",
+    "sha256": "955a9bcb16fdc5acda27997740e9776174dd7064fd89753ccff25fdf00374778"
+  },
+  "red_flags_file": {
+    "file": "data/red_flags.json",
+    "sha256": "dfabf7c9618802f505dc50afa08ec8f024e751472f5066206a8a451cbc21aac6"
+  },
+  "integrations_file": {
+    "file": "data/integrations.json",
+    "sha256": "210660ecb0509820c58cacccab0cf125de37b01854a6c25bbc6c0a903159c5ed"
+  },
+  "notice": "This is a development reference library, not a validated formulary or clinical protocol. Sources differ in type, date, jurisdiction and licensing. Verify current status, local applicability and reuse rights before clinical use. No medication dosing or automatic treatment decision is included. Moclobemide and milnacipran are intentionally excluded from the available medication catalog; existing historical records remain preserved."
+}

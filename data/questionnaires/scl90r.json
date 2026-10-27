@@ -1,0 +1,2869 @@
+{
+  "id": "scl90r",
+  "title": "SCL-90-R — Опросник выраженности психопатологической симптоматики",
+  "category": "Многомерная симптоматика",
+  "respondent": "patient",
+  "instruction": "Оцените степень дискомфорта за последнюю неделю, включая сегодня. Выберите один вариант на каждый из 90 пунктов. Система рассчитывает описательные индексы по алгоритму из приложенного документа.",
+  "source": "Document 1(3).odt, раздел 8; русская адаптация Н. В. Тарабриной (2001), источник и права должны быть проверены перед клиническим/коммерческим использованием.",
+  "version": "1.0-source-import",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Головные боли",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 1"
+    },
+    {
+      "id": "q2",
+      "text": "Нервозность или внутренняя дрожь",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 2"
+    },
+    {
+      "id": "q3",
+      "text": "Повторяющиеся неотвязные неприятные мысли",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 3"
+    },
+    {
+      "id": "q4",
+      "text": "Слабость или головокружение",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 4"
+    },
+    {
+      "id": "q5",
+      "text": "Потеря сексуального влечения или удовольствия",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 5"
+    },
+    {
+      "id": "q6",
+      "text": "Чувство недовольства другими",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 6"
+    },
+    {
+      "id": "q7",
+      "text": "Ощущение, что кто-то другой может управлять Вашими мыслями",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 7"
+    },
+    {
+      "id": "q8",
+      "text": "Ощущение, что почти во всех Ваших неприятностях виноваты другие",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 8"
+    },
+    {
+      "id": "q9",
+      "text": "Проблемы с памятью",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 9"
+    },
+    {
+      "id": "q10",
+      "text": "Ваша небрежность или неряшливость",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 10"
+    },
+    {
+      "id": "q11",
+      "text": "Легко возникающая досада или раздражение",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 11"
+    },
+    {
+      "id": "q12",
+      "text": "Боли в сердце или грудной клетке",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 12"
+    },
+    {
+      "id": "q13",
+      "text": "Чувство страха в открытых местах или на улице",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 13"
+    },
+    {
+      "id": "q14",
+      "text": "Упадок сил или заторможенность",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 14"
+    },
+    {
+      "id": "q15",
+      "text": "Мысли о том, чтобы покончить с собой",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 15"
+    },
+    {
+      "id": "q16",
+      "text": "То, что Вы слышите голоса, которых не слышат другие",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 16"
+    },
+    {
+      "id": "q17",
+      "text": "Дрожь",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 17"
+    },
+    {
+      "id": "q18",
+      "text": "Чувство, что большинству людей нельзя доверять",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 18"
+    },
+    {
+      "id": "q19",
+      "text": "Плохой аппетит",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 19"
+    },
+    {
+      "id": "q20",
+      "text": "Слезливость",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 20"
+    },
+    {
+      "id": "q21",
+      "text": "Застенчивость или скованность в общении с лицами противоположного пола",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 21"
+    },
+    {
+      "id": "q22",
+      "text": "Ощущение, что Вы в западне или пойманы",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 22"
+    },
+    {
+      "id": "q23",
+      "text": "Неожиданный или беспричинный страх",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 23"
+    },
+    {
+      "id": "q24",
+      "text": "Вспышки гнева, которые Вы не могли сдержать",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 24"
+    },
+    {
+      "id": "q25",
+      "text": "Боязнь выйти из дома одному",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 25"
+    },
+    {
+      "id": "q26",
+      "text": "Чувство, что Вы сами во многом виноваты",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 26"
+    },
+    {
+      "id": "q27",
+      "text": "Боли в пояснице",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 27"
+    },
+    {
+      "id": "q28",
+      "text": "Ощущение, что Вам что-то мешает сделать что-либо",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 28"
+    },
+    {
+      "id": "q29",
+      "text": "Чувство одиночества",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 29"
+    },
+    {
+      "id": "q30",
+      "text": "Подавленное настроение, хандра",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 30"
+    },
+    {
+      "id": "q31",
+      "text": "Чрезмерное беспокойство по разным поводам",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 31"
+    },
+    {
+      "id": "q32",
+      "text": "Отсутствие интереса к чему-либо",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 32"
+    },
+    {
+      "id": "q33",
+      "text": "Чувство страха",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 33"
+    },
+    {
+      "id": "q34",
+      "text": "То, что Ваши чувства легко задеть",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 34"
+    },
+    {
+      "id": "q35",
+      "text": "Ощущение, что другие проникают в Ваши мысли",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 35"
+    },
+    {
+      "id": "q36",
+      "text": "Ощущение, что другие не понимают Вас или не сочувствуют Вам",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 36"
+    },
+    {
+      "id": "q37",
+      "text": "Ощущение, что люди недружелюбны или Вы им не нравитесь",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 37"
+    },
+    {
+      "id": "q38",
+      "text": "Необходимость делать все очень медленно, чтобы не допустить ошибки",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 38"
+    },
+    {
+      "id": "q39",
+      "text": "Сильное или учащенное сердцебиение",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 39"
+    },
+    {
+      "id": "q40",
+      "text": "Тошнота или расстройство желудка",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 40"
+    },
+    {
+      "id": "q41",
+      "text": "Ощущение, что Вы хуже других",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 41"
+    },
+    {
+      "id": "q42",
+      "text": "Боли в мышцах",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 42"
+    },
+    {
+      "id": "q43",
+      "text": "Ощущение, что другие наблюдают за Вами или говорят о Вас",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 43"
+    },
+    {
+      "id": "q44",
+      "text": "То, что Вам трудно заснуть",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 44"
+    },
+    {
+      "id": "q45",
+      "text": "Потребность проверять или перепроверять то, что Вы делаете",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 45"
+    },
+    {
+      "id": "q46",
+      "text": "Трудности в принятии решений",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 46"
+    },
+    {
+      "id": "q47",
+      "text": "Боязнь езды в автобусах",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 47"
+    },
+    {
+      "id": "q48",
+      "text": "Затрудненное дыхание",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 48"
+    },
+    {
+      "id": "q49",
+      "text": "Приступы жара или озноба",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 49"
+    },
+    {
+      "id": "q50",
+      "text": "Необходимость избегать некоторых мест или действий, так как они Вас пугают",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 50"
+    },
+    {
+      "id": "q51",
+      "text": "То, что Вы легко теряете мысль",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 51"
+    },
+    {
+      "id": "q52",
+      "text": "Онемение или покалывание в различных частях тела",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 52"
+    },
+    {
+      "id": "q53",
+      "text": "Комок в горле",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 53"
+    },
+    {
+      "id": "q54",
+      "text": "Ощущение, что будущее безнадежно",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 54"
+    },
+    {
+      "id": "q55",
+      "text": "То, что Вам трудно сосредоточиться",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 55"
+    },
+    {
+      "id": "q56",
+      "text": "Ощущение слабости в различных частях тела",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 56"
+    },
+    {
+      "id": "q57",
+      "text": "Ощущение напряженности или взвинченности",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 57"
+    },
+    {
+      "id": "q58",
+      "text": "Тяжесть в конечностях",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 58"
+    },
+    {
+      "id": "q59",
+      "text": "Мысли о смерти",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 59"
+    },
+    {
+      "id": "q60",
+      "text": "Переедание",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 60"
+    },
+    {
+      "id": "q61",
+      "text": "Ощущение неловкости, когда люди наблюдают за Вами",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 61"
+    },
+    {
+      "id": "q62",
+      "text": "То, что у Вас в голове чужие мысли",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 62"
+    },
+    {
+      "id": "q63",
+      "text": "Импульсы причинять телесные повреждения или вред кому-либо",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 63"
+    },
+    {
+      "id": "q64",
+      "text": "Бессонница по утрам",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 64"
+    },
+    {
+      "id": "q65",
+      "text": "Потребность повторять действия: прикасаться, мыться, пересчитывать",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 65"
+    },
+    {
+      "id": "q66",
+      "text": "Беспокойный и тревожный сон",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 66"
+    },
+    {
+      "id": "q67",
+      "text": "Импульсы ломать или крушить что-либо",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 67"
+    },
+    {
+      "id": "q68",
+      "text": "Наличие у Вас идей или верований, которые не разделяют другие",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 68"
+    },
+    {
+      "id": "q69",
+      "text": "Чрезмерная застенчивость при общении с другими",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 69"
+    },
+    {
+      "id": "q70",
+      "text": "Чувство неловкости в людных местах (магазинах, кинотеатрах)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 70"
+    },
+    {
+      "id": "q71",
+      "text": "Чувство, что все, чтобы Вы ни делали, требует больших усилий",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 71"
+    },
+    {
+      "id": "q72",
+      "text": "Приступы ужаса или паники",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 72"
+    },
+    {
+      "id": "q73",
+      "text": "Чувство неловкости, когда Вы едите или пьете на людях",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 73"
+    },
+    {
+      "id": "q74",
+      "text": "То, что Вы часто вступаете в спор",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 74"
+    },
+    {
+      "id": "q75",
+      "text": "Нервозность, когда Вы оставались одни",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 75"
+    },
+    {
+      "id": "q76",
+      "text": "То, что другие недооценивают Ваши достижения",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 76"
+    },
+    {
+      "id": "q77",
+      "text": "Чувство одиночества, даже когда Вы с другими людьми",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 77"
+    },
+    {
+      "id": "q78",
+      "text": "Такое сильное беспокойство, что Вы не могли усидеть на месте",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 78"
+    },
+    {
+      "id": "q79",
+      "text": "Ощущение собственной никчемности",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 79"
+    },
+    {
+      "id": "q80",
+      "text": "Ощущение, что с Вами произойдет что-то плохое",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 80"
+    },
+    {
+      "id": "q81",
+      "text": "То, что Вы кричите или швыряетесь вещами",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 81"
+    },
+    {
+      "id": "q82",
+      "text": "Боязнь, что Вы упадете в обморок на людях",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 82"
+    },
+    {
+      "id": "q83",
+      "text": "Ощущение, что люди злоупотребят Вашим доверием, если Вы им позволите",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 83"
+    },
+    {
+      "id": "q84",
+      "text": "Нервировавшие Вас сексуальные мысли",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 84"
+    },
+    {
+      "id": "q85",
+      "text": "Мысль о том, что Вы должны быть наказаны за Ваши грехи",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 85"
+    },
+    {
+      "id": "q86",
+      "text": "Кошмарные мысли или видения",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 86"
+    },
+    {
+      "id": "q87",
+      "text": "Мысли о том, что с Вашим телом что-то не в порядке",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 87"
+    },
+    {
+      "id": "q88",
+      "text": "То, что Вы не чувствуете близости ни к кому",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 88"
+    },
+    {
+      "id": "q89",
+      "text": "Чувство вины",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 89"
+    },
+    {
+      "id": "q90",
+      "text": "Мысли о том, что с Вашим рассудком творится что-то неладное",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Совсем нет"
+        },
+        {
+          "value": 1,
+          "label": "Немного"
+        },
+        {
+          "value": 2,
+          "label": "Умеренно"
+        },
+        {
+          "value": 3,
+          "label": "Сильно"
+        },
+        {
+          "value": 4,
+          "label": "Очень сильно"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 90"
+    }
+  ],
+  "scoring": {
+    "type": "scl90",
+    "metric_label": "Индексы SCL-90-R",
+    "subscales": [
+      {
+        "id": "somatization",
+        "label": "Somatization",
+        "question_ids": [
+          "q1",
+          "q4",
+          "q12",
+          "q27",
+          "q40",
+          "q42",
+          "q48",
+          "q49",
+          "q52",
+          "q53",
+          "q56",
+          "q58"
+        ]
+      },
+      {
+        "id": "obsessive_compulsive",
+        "label": "Obsessive compulsive",
+        "question_ids": [
+          "q3",
+          "q9",
+          "q10",
+          "q28",
+          "q38",
+          "q45",
+          "q46",
+          "q51",
+          "q55",
+          "q65"
+        ]
+      },
+      {
+        "id": "interpersonal_sensitivity",
+        "label": "Interpersonal sensitivity",
+        "question_ids": [
+          "q6",
+          "q21",
+          "q34",
+          "q36",
+          "q37",
+          "q41",
+          "q61",
+          "q69",
+          "q73"
+        ]
+      },
+      {
+        "id": "depression",
+        "label": "Depression",
+        "question_ids": [
+          "q14",
+          "q15",
+          "q20",
+          "q22",
+          "q26",
+          "q29",
+          "q30",
+          "q31",
+          "q32",
+          "q54",
+          "q56",
+          "q71",
+          "q79"
+        ]
+      },
+      {
+        "id": "anxiety",
+        "label": "Anxiety",
+        "question_ids": [
+          "q2",
+          "q17",
+          "q23",
+          "q33",
+          "q39",
+          "q57",
+          "q72",
+          "q78",
+          "q80",
+          "q86"
+        ]
+      },
+      {
+        "id": "hostility",
+        "label": "Hostility",
+        "question_ids": [
+          "q11",
+          "q24",
+          "q63",
+          "q67",
+          "q74",
+          "q81"
+        ]
+      },
+      {
+        "id": "phobic_anxiety",
+        "label": "Phobic anxiety",
+        "question_ids": [
+          "q13",
+          "q25",
+          "q47",
+          "q50",
+          "q70",
+          "q75",
+          "q82"
+        ]
+      },
+      {
+        "id": "paranoid_ideation",
+        "label": "Paranoid ideation",
+        "question_ids": [
+          "q8",
+          "q18",
+          "q43",
+          "q68",
+          "q76",
+          "q83"
+        ]
+      },
+      {
+        "id": "psychoticism",
+        "label": "Psychoticism",
+        "question_ids": [
+          "q7",
+          "q16",
+          "q35",
+          "q62",
+          "q77",
+          "q84",
+          "q85",
+          "q87",
+          "q88",
+          "q90"
+        ]
+      },
+      {
+        "id": "additional_items",
+        "label": "Additional items",
+        "question_ids": [
+          "q19",
+          "q44",
+          "q59",
+          "q60",
+          "q64",
+          "q66",
+          "q89"
+        ]
+      }
+    ]
+  },
+  "license_review_required": true,
+  "implementation_notes": "Для десяти групп рассчитываются средние по пунктам согласно таблице соответствия из приложенного ODT; файл одновременно описывает девять факторов, что требует сверки с оригинальным ключом. В MVP индексы описательные, без нормативных порогов и диагноза."
+}

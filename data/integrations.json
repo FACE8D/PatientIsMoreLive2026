@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "formats": [
+    {
+      "id": "fhir_r4",
+      "name": "HL7 FHIR R4",
+      "direction": [
+        "import",
+        "export"
+      ],
+      "implemented": "Bundle export (Patient, QuestionnaireResponse, Observation, MedicationRequest/Statement, CarePlan, AdverseEvent, DiagnosticReport, ImagingStudy); import for selected resources into existing patient, idempotent by external identifier/hash.",
+      "limits": "Target FHIR server profile/terminologies must be agreed before production."
+    },
+    {
+      "id": "dicom_sr",
+      "name": "DICOM Basic Text SR",
+      "direction": [
+        "export"
+      ],
+      "implemented": "Generated Part-10 DICOM SR using local concept codes; report is built from the single stored encounter/assessment + linked observations.",
+      "limits": "Acceptance varies by PACS/viewer; validate against the destination modality and its required DICOM SR template/profile. A locally coded report is not an official diagnostic code."
+    },
+    {
+      "id": "dicomweb",
+      "name": "DICOMweb / PACS study references",
+      "direction": [
+        "import_manifest",
+        "export_report"
+      ],
+      "implemented": "Import DICOM Study/Series/Instance metadata manifest or FHIR ImagingStudy and link by StudyInstanceUID. Image retrieval remains in the configured PACS/DICOMweb endpoint.",
+      "limits": "This local release does not implement a DICOMweb QIDO/WADO/STOW server or store pixel data; configure a PACS/DICOMweb endpoint."
+    },
+    {
+      "id": "csv_json",
+      "name": "CSV/JSON existing databases",
+      "direction": [
+        "import",
+        "export"
+      ],
+      "implemented": "Import structured diary rows idempotently using source system + external ID; JSON export/import for patient-scoped data.",
+      "limits": "Column mapping must be agreed; import previews/mappings are explicit to prevent duplicate records and overwrites."
+    },
+    {
+      "id": "android_webview",
+      "name": "Android WebView + FCM",
+      "direction": [
+        "mobile_shell",
+        "push"
+      ],
+      "implemented": "Native wrapper source + WebView bridge and notification channel included.",
+      "limits": "Firebase project, google-services.json, server-side Firebase credentials and signed Android build are required for background push."
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "itt15",
+  "title": "ИТТ — Интегративный тест тревожности (15 пунктов)",
+  "category": "Тревога",
+  "respondent": "patient",
+  "instruction": "Отвечайте о том, как Вы чувствовали себя в соответствующий период, установленный специалистом. Приложенный файл содержит несколько нормативных таблиц; без уточнения формы и условий они здесь не применяются.",
+  "source": "Document 1(3).odt, раздел 9. В приложенном файле есть таблицы вспомогательных шкал/норм; здесь показывается только сумма ответов 0–3 без самостоятельной нормативной интерпретации.",
+  "version": "1.0-source-import",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Я находился в напряжении",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 1"
+    },
+    {
+      "id": "q2",
+      "text": "Я расстраивался",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 2"
+    },
+    {
+      "id": "q3",
+      "text": "Я тревожился о будущем",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 3"
+    },
+    {
+      "id": "q4",
+      "text": "Я нервничал",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 4"
+    },
+    {
+      "id": "q5",
+      "text": "Я бывал озабочен",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 5"
+    },
+    {
+      "id": "q6",
+      "text": "Я бывал возбуждён",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 6"
+    },
+    {
+      "id": "q7",
+      "text": "Я ощущал непонятную угрозу",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 7"
+    },
+    {
+      "id": "q8",
+      "text": "Я быстро уставал",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 8"
+    },
+    {
+      "id": "q9",
+      "text": "Я бывал не уверен в себе",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 9"
+    },
+    {
+      "id": "q10",
+      "text": "Я избегал любых конфликтов",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 10"
+    },
+    {
+      "id": "q11",
+      "text": "Я легко приходил в замешательство",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 11"
+    },
+    {
+      "id": "q12",
+      "text": "Я ощущал свою бесполезность",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 12"
+    },
+    {
+      "id": "q13",
+      "text": "Я плохо спал",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 13"
+    },
+    {
+      "id": "q14",
+      "text": "Я ощущал себя утомлённым",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 14"
+    },
+    {
+      "id": "q15",
+      "text": "Я бывал эмоционально чувствителен",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Никогда / почти никогда"
+        },
+        {
+          "value": 1,
+          "label": "Редко"
+        },
+        {
+          "value": 2,
+          "label": "Иногда"
+        },
+        {
+          "value": 3,
+          "label": "Часто"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Пункт 15"
+    }
+  ],
+  "scoring": {
+    "type": "sum",
+    "metric_label": "Сумма ответов (0–45)",
+    "bands": []
+  },
+  "license_review_required": false
+}

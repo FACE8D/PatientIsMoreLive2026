@@ -1,0 +1,605 @@
+{
+  "id": "hcl32",
+  "title": "HCL-32 — Шкала гипомании (версия из PDF)",
+  "category": "Гипомания / биполярный спектр",
+  "respondent": "patient",
+  "instruction": "Вспомните период повышенного состояния и ответьте независимо от того, как чувствуете себя сегодня. Основная часть включает 32 признака.",
+  "source": "Приложенный гипомания(3).pdf, страницы 5–7, Приложение 1. В исследовании для русскоязычной версии указан порог ≥14; это скрининговая граница, не диагноз.",
+  "version": "1.0-source-import",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Мне требовалось меньше времени на сон",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 1"
+    },
+    {
+      "id": "q2",
+      "text": "У меня было больше энергии, и я был(а) более активным(ой)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 2"
+    },
+    {
+      "id": "q3",
+      "text": "Я был(а) более уверен(а) в себе",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 3"
+    },
+    {
+      "id": "q4",
+      "text": "Работа доставляла мне больше удовольствия",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 4"
+    },
+    {
+      "id": "q5",
+      "text": "Я стал(а) более общительным(ой) (чаще звонил(а), больше выходил(а) из дому)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 5"
+    },
+    {
+      "id": "q6",
+      "text": "Мне хотелось путешествовать, и я действительно ездил(а) гораздо больше",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 6"
+    },
+    {
+      "id": "q7",
+      "text": "Я стал(а) водить автомобиль с большей скоростью и чаще рисковал(а)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 7"
+    },
+    {
+      "id": "q8",
+      "text": "Я тратил(а) больше (слишком много) денег",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 8"
+    },
+    {
+      "id": "q9",
+      "text": "Я чаще попадал(а) в рискованные ситуации в повседневной жизни",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 9"
+    },
+    {
+      "id": "q10",
+      "text": "Я стал(а) больше двигаться (заниматься спортом и т. д.)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 10"
+    },
+    {
+      "id": "q11",
+      "text": "У меня было много планов и проектов",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 11"
+    },
+    {
+      "id": "q12",
+      "text": "Я стал(а) более изобретательным(ой), у меня было много идей",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 12"
+    },
+    {
+      "id": "q13",
+      "text": "Я стал(а) менее застенчивым(ой) и «закомплексованным(ой)»",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 13"
+    },
+    {
+      "id": "q14",
+      "text": "Я одевался(ась) ярче и экстравагантнее",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 14"
+    },
+    {
+      "id": "q15",
+      "text": "Мне хотелось чаще встречаться с людьми, и я действительно общался(ась) со многими",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 15"
+    },
+    {
+      "id": "q16",
+      "text": "Секс стал интересовать меня больше, половое влечение повысилось",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 16"
+    },
+    {
+      "id": "q17",
+      "text": "Я стал(а) чаще флиртовать и/или был(а) более активен(на) в сексуальном отношении",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 17"
+    },
+    {
+      "id": "q18",
+      "text": "Я много говорил(а)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 18"
+    },
+    {
+      "id": "q19",
+      "text": "Я думал(а) быстрее, чем обычно",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 19"
+    },
+    {
+      "id": "q20",
+      "text": "Я много шутил(а) и каламбурил(а)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 20"
+    },
+    {
+      "id": "q21",
+      "text": "Я легко отвлекался(ась)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 21"
+    },
+    {
+      "id": "q22",
+      "text": "У меня появилось много новых занятий",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 22"
+    },
+    {
+      "id": "q23",
+      "text": "У меня мысли перескакивали с одного на другое",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 23"
+    },
+    {
+      "id": "q24",
+      "text": "Я всё делал(а) гораздо быстрее и легче, чем обычно",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 24"
+    },
+    {
+      "id": "q25",
+      "text": "Я стал(а) более нетерпеливым(ой) и легко раздражался(ась)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 25"
+    },
+    {
+      "id": "q26",
+      "text": "Я раздражал(а) и утомлял(а) окружающих",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 26"
+    },
+    {
+      "id": "q27",
+      "text": "Я часто ссорился(ась)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 27"
+    },
+    {
+      "id": "q28",
+      "text": "Настроение у меня было приподнятым и оптимистичным",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 28"
+    },
+    {
+      "id": "q29",
+      "text": "Я пил(а) много кофе",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 29"
+    },
+    {
+      "id": "q30",
+      "text": "Я много курил(а)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 30"
+    },
+    {
+      "id": "q31",
+      "text": "Я больше и чаще выпивал(а)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 31"
+    },
+    {
+      "id": "q32",
+      "text": "Я принимал(а) больше лекарств (седативных, анксиолитиков, стимуляторов)",
+      "type": "single",
+      "options": [
+        {
+          "value": 0,
+          "label": "Нет"
+        },
+        {
+          "value": 1,
+          "label": "Да"
+        }
+      ],
+      "required": true,
+      "scored": true,
+      "section": "Признак 32"
+    }
+  ],
+  "scoring": {
+    "type": "sum",
+    "metric_label": "Количество ответов «Да»",
+    "bands": [
+      {
+        "min": 0,
+        "max": 13,
+        "label": "Ниже порога исследования; не исключает биполярное расстройство"
+      },
+      {
+        "min": 14,
+        "max": 32,
+        "label": "Порог скрининга достигнут; необходима клиническая оценка"
+      }
+    ],
+    "recommendation_if_band_min": 14
+  },
+  "license_review_required": true
+}
